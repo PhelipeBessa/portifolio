@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.menu{
+    color: #F4F4F4;
+    width: 20vw;
+    height: 100vh;
+    text-align: center;
+    background: #040B15;
+}
+.profile{
+
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 5px solid #3b3434;
+    margin-top: 10px;
+}
+.redes-sociais button{
+    padding: 7px;
+    background: #3b3434;
+    border-radius: 30px;
+    border: none;
+}
+.redes-sociais button:hover{
+    background: #464FF6;
+}
+.menu-itens{
+    display: grid;
+    margin-top: 30px;
+}
+.menu-itens a{
+    text-decoration: none;
+    color: #F4F4F4;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rodape{
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+}
+.conteudo{
+    background: #F4F4F4;
+    color: #040B15;
+    width: 80vw;
+    height: 100vh;
+}
+
+
+// Dispositivos small (telefones em modo paisagem, com 576px ou mais)
+@media (min-width: 576px) { ... }
+
+// Dispositivos médios (tablets com 768px ou mais)
+@media (min-width: 768px) { ... }
+
+// Dispositivos large (desktops com 992px ou mais)
+@media (min-width: 992px) { ... }
+
+// Dispositivos extra large (desktops grandes com 1200px ou mais)
+@media (min-width: 1200px) { ... }
