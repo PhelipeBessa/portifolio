@@ -5,6 +5,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    background: #F4F4F4;
 }
 .menu{
     color: #F4F4F4;
@@ -12,10 +13,11 @@ body{
     height: 100vh;
     text-align: center;
     background: #040B15;
-}
+    border-radius: 0% 10% 10% 0% / 25% 11% 11% 25%;
+}/*
 .profile{
 
-}
+}*/
 .profile-img{
     width: 150px;
     height: 150px;
@@ -52,9 +54,77 @@ body{
     color: #040B15;
     width: 80vw;
     height: 100vh;
+    box-sizing: border-box;
+    
+}
+.conteudo-pc{
+    margin-top: 80px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*align-items: center; */
+}
+.conteudo-pc img{
+    width: 600px;
+}
+.conteudo-tablet{
+    display: flex;
+    justify-content: center;
+    margin: -300px 500px 0 0;
+}
+.conteudo-tablet img{
+    width: 250px;
+}
+.conteudo-mobile{
+    display: flex;
+    justify-content: center;
+    margin: -300px 800px;
+}
+.conteudo-mobile img{
+    width: 150px;
+}
+.contact{
+    background: #F4F4F4;
+    margin: 37px -140px;
+    width: 130px;
+    height: 225.5px;
+    flex-direction: row;
+    text-align: center;
+}
+.contact-profile{
+    width: 130px;
+    height: 110px;
+    background: #4698f6;
+    color: #F4F4F4;
+}
+.contact-profile img{
+    margin: 0 50px;
+    width: 40px;
+    display: flex;
+    border-radius: 75px;
 }
 
+.contact-profile span{
+    font-size: 10px;
+    text-align: center;
+}
+.contact-redes{
+    width: 130px;
+    height: 115.5px;
+    align-items: baseline;
+}
+.contact-redes img{
+    width: 15px;
+}
+.contact-redes li{
+    margin: 0 0 0 -25px;
+    list-style: none;
+}
+.conteudo-mobile:hover{
+    scale: 1.2;
+}
 
+/*
 // Dispositivos small (telefones em modo paisagem, com 576px ou mais)
 @media (min-width: 576px) { ... }
 
@@ -66,3 +136,4 @@ body{
 
 // Dispositivos extra large (desktops grandes com 1200px ou mais)
 @media (min-width: 1200px) { ... }
+*/
